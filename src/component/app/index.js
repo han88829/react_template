@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { inject, observer } from 'mobx-react';
-import { observable, action, useStrict } from "mobx";
-import { Route, Switch, Link, Redirect } from 'react-router-dom';
+import { inject, } from 'mobx-react';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import User from '../user';
 
 // 全局状态数stores传入组件

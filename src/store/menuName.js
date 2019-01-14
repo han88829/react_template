@@ -1,7 +1,6 @@
-import { observable, action, useStrict } from 'mobx';
+import { observable, action, } from 'mobx';
 import RouteData from './RouteData';
 
-useStrict(true);
 
 class store {
     @observable routeKey = [];

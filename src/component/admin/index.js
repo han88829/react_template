@@ -5,7 +5,7 @@ import { inject, observer } from 'mobx-react';
 import { action, toJS } from 'mobx';
 import App from '../app';
 import RouteData from '../../store/RouteData';
-import './admin.css';
+import './admin.scss';
 import logo from '../../assets/logo.png';
 
 const { Content, Sider } = Layout;
